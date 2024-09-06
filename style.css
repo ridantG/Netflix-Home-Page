@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(IN-en-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 20px;
+
+}
+
+.hero>:nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    background-color: rgb(73, 68, 68);
+    height: 8px;
+}
+
+.btn {
+    padding: 8px 28px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.259);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 8px 25px;
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.8);
+    border: 1px solid white;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+.faq{
+    background:black;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    background-color: gray;
+    padding: 34px;
+}
